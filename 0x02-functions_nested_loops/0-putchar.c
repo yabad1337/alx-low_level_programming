@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *
  * main - Print a string on stdout
- *
+ * Description: up
  * Return: 0.
  */
 int	main(void)
