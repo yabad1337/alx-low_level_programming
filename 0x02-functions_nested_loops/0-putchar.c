@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main - this program prints a simple string
+ * _putstr - string to be printed
  *
- * Return: 0.
+ * Description: none
+ *
+ * Return: void.
  */
-
 void	_putstr(char *str)
 {
 	int	i;
@@ -16,7 +17,13 @@ void	_putstr(char *str)
 		i++;
 	}
 }
-
+/**
+ * main - Entry point
+ *
+ * Description: this program prints a simple string in stdout
+ *
+ * Return: 0.
+ */
 int	main(void)
 {
 	_putstr("_putchar\n");
