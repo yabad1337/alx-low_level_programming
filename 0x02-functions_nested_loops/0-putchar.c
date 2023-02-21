@@ -1,11 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - this program prints a simple string
  *
  * Return: 0.
  */
+
+void	_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+}
+
 int	main(void)
 {
-	printf("_putchar\n");
+	_putstr("_putchar\n");
 	return (0);
 }
